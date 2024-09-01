@@ -11,7 +11,6 @@ while cap.isOpened():
         if cv2.waitKey(5) == ord('q'):
             cv2.imwrite("image.jpg",background)
             break
-        #save the backaground
         
 cap.release()
 cv2.destroyAllWindows()
